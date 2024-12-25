@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Project</title>
+    <link rel="shortcut icon" href="images/images/amazon-mobile-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/amazon-header.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="header">
+        <div class="header-left-section">
+            <a href="home.html" class="header-link">
+                <img src="images/images/amazon-logo-white.png" alt="amazon" class="amazon-logo">
+
+                <img src="images/images/amazon-mobile-logo-white.png" alt="" class="amazon-mobile-logo">
+            </a>
+        </div>
+        
+        <div class="header-middle-section">
+            <input type="text" class="search-bar js-search-bar" placeholder="Search">
+            <button type="button" class="search-button  js-search-button">
+                <img src="images/images/icons/search-icon.png" alt="search">
+            </button>
+        </div>
+
+        <div class="header-right-section">
+            <span class="user-name js-user-name"></span>
+            
+            <a href="orders.html" class="orders-link">
+                <span class="returns-text">Returns</span>
+                <span class="orders-text">& Orders</span>
+            </a>
+            
+            
+            <a href="checkout.html" class="cart-links">
+                <img src="images/images/icons/cart-icon.png" alt="cart" class="cart-icon">
+                <div class="cart-quantity js-cart-quantity"></div>
+                <div class="cart-text">Cart</div>
+            </a>
+            
+        </div>
+    </div>
+
+    <nav class="navigation-bar">
+        <div class="navigation-bar-categories">
+            
+          <button class="category-btn js-view-all-btn">View All</button>
+          <button class="category-btn js-mens-fashion-btn">Men's Fashion</button>
+          <button class="category-btn js-womens-fashion-btn">Women's Fashion</button>
+          <button class="category-btn js-toys-btn">Toys & Games</button>
+          <button class="category-btn js-headphones-btn">Bluetooth Headphones</button>
+          <button class="category-btn js-home-btn">Home Essentials</button>
+          <button class="category-btn js-kitchen-btn">Kitchen Essentials</button>
+          <button class="category-btn js-groceries-btn">Groceries</button> 
+        </div>
+    </nav>
+
+    <main>
+
+        
+        <div class="starting">
+            <div id="carouselExampleControls" class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/images/products/carousel/t-shitrs-carousel.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/images/products/carousel/kitchen-carousel.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/images/products/carousel/toys-carousel.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/images/products/carousel/home-carousel.jpg" alt="Fourth slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+    
+            <div class="categories">
+                <div class="category">
+                    <h3>View All</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/athletic-cotton-socks-6-pairs.jpg" alt="ethnic-dress">
+                            <div>Socks</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/adults-plain-cotton-tshirt-2-pack-teal.jpg" alt="decor">
+                            <div>T-shirts</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/intermediate-composite-basketball.jpg" alt="fasshion">
+                            <div>Sports</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/6-piece-white-dinner-plate-set.jpg" alt="glassware">
+                            <div>Glassware</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link view-all-btn">Explore all</a>
+                </div>
+              
+                <div class="category">
+                    <h3>Men's Fashion</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/men-chino-pants-beige.jpg" alt="Pants">
+                            <div>Pants</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/men-athletic-shoes-green.jpg" alt="Shoes">
+                            <div>Shoes</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/men-cozy-fleece-zip-up-hoodie-red.jpg" alt="Hoodies">
+                            <div>Hoodies</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/men-navigator-sunglasses-brown.jpg" alt="Sunglasses ">
+                            <div>Sunglasses</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link mens-fashion-btn">Explore all</a>
+                </div>
+              
+                <div class="category">
+                    <h3>Headphones</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/boat.jpg" alt="boat">
+                            <div>boAt</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/boult.jpg" alt="boult">
+                            <div>Boult</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/noise.jpg" alt="noise">
+                            <div>Noise</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/zebronics.jpg" alt="zebronics">
+                            <div>Zebronics</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link headphones-btn">Explore all</a>
+                </div>
+    
+                <div class="category">
+                    <h3>Kitchen Essentials</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/round-airtight-food-storage-containers.jpg" alt="Containers">
+                            <div>Containers</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/coffeemaker-with-glass-carafe-black.jpg" alt="coffeemaker">
+                            <div>Coffeemaker</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/electric-glass-and-steel-hot-water-kettle.webp" alt="kettle">
+                            <div>Electric kettle</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/6-piece-non-stick-baking-set.webp" alt="baking-set">
+                            <div>Baking Set</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link kitchen-btn">Explore all</a>
+                </div>
+
+                <div class="category">
+                    <h3>Women's Fashion</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/women-stretch-popover-hoodie-black.jpg" alt="Hoodies">
+                            <div>Hoodies </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/handbag.jpg" alt="handbags">
+                            <div>handbags</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/women-beach-sandals.jpg" alt="footware">
+                            <div>Footware</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/double-elongated-twist-french-wire-earrings.webp" alt="ear rings">
+                            <div>Ear Rings</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link womens-fashion-btn">Explore all</a>
+                </div>
+              
+                <div class="category">
+                    <h3>Toys</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/penguin-plush-toy-for-kids.jpg" alt="penguin plush">
+                            <div>Plush Toys</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/rubiks-cube-beginner-speed-cube.jpg" alt="cube">
+                            <div>Rubiks Cube</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/lego.jpg" alt="lego">
+                            <div>LEGO</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/remote-control-car.jpg" alt="remote control ">
+                            <div>Remote Contols</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link toys-btn">Explore all</a>
+                </div>
+              
+                <div class="category">
+                    <h3>Home</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/blackout-curtain-set-beige.webp" alt="curtains">
+                            <div>Curtains</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/duvet-cover-set-blue-twin.jpg" alt="Bed covers">
+                            <div>Bed Covers</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/cushion-covers.jpg" alt="cushion-covers">
+                            <div>Cushion Covers</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/decor.jpg" alt="zebronics">
+                            <div>Clocks</div>
+                        </div>
+                    </div>
+                    <a href="#" class="link home-btn">Explore all</a>
+                </div>
+    
+                <div class="category">
+                    <h3>Groceries</h3>
+                    <div class="items">
+                        <div class="item">
+                            <img src="images/images/products/liquid-laundry-detergent-plain.jpg" alt="detergent">
+                            <div>Detergents</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/rice.jpg" alt="rice">
+                            <div>Rice</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/salt.jpg" alt="Salt">
+                            <div>Salt</div>
+                        </div>
+                        <div class="item">
+                            <img src="images/images/products/biscuits.jpg" alt="biscuits ">
+                            <div>biscuits </div>
+                        </div>
+                    </div>
+                    <a href="#" class="link groceries-btn">Explore all</a>
+                </div>
+            </div>
+
+            
+        </div>
+        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h5>Get to Know Us</h5>
+                    <a href="https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer">About Amazon</a>
+                    <a href="https://amazon.jobs/en/">Careers</a>
+                    <a href="https://press.aboutamazon.com/in/press-release-archive">Press Releases</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Connect With Us</h5>
+                    <a href="https://www.facebook.com/AmazonIN">Facebook</a>
+                    <a href="https://x.com/AmazonIN">Twitter</a>
+                    <a href="https://www.instagram.com/amazondotin/">Instagram</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Make Money With Us</h5>
+                    <a href="https://www.amazon.in/b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C">Sell on Amazon</a>
+                    <a href="https://sell.amazon.in/brand-registry">Protect and Build Your Brand</a>
+                    <a href="https://supply.amazon.com/?ref_=footer_sta&lang=en-IN&initialSessionID=257-5438058-8934146&ld=AZINSOANavDesktopFooter_C">Supply to Amazon</a>
+                </div>
+                <div class="footer-col">
+                    <h5>Let Us Help You</h5>
+                    <a href="https://www.amazon.in/gp/css/homepage.html?ref_=footer_ya">Your Account</a>
+                    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=G202034930&ref_=footer_swc">100% Purchase Protection</a>
+                    <a href="https://www.amazon.in/gp/help/customer/display.html?nodeId=G508510&ref_=footer_gw_m_b_he">Help</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <span>Conditions of Use & Sale</span>
+                <span>Privacy Notice</span>
+                <span>Interest-Based Ads</span>
+            </div>
+            <div class="footer-copy">
+                <p>© 2001-2025, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script/carousel.js"></script>
+    <script type="module" src="script/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+</body>
+</html>
